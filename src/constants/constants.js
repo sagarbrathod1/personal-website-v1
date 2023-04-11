@@ -85,4 +85,5 @@ export const TimeLineData = [
   { string: "Jan. 2020", text: "Senior Manager @ New Vision Resources, INC" },
   { string: "Jun. 2022", text: "Software Engineering Intern @ Headstarter" },
   { string: "Aug. 2022", text: "Software Engineering Extern @ Plivo" },
+  { string: "Feb. 2023", text: "Software Engineer @ Atomic Object" },
 ];
