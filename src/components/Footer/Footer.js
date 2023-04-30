@@ -1,8 +1,23 @@
-import React from 'react';
-import { AiFillGithub, AiFillProfile, AiFillLinkedin } from 'react-icons/ai';
+import React from "react";
+import {
+  AiFillGithub,
+  AiFillProfile,
+  AiFillLinkedin,
+  AiOutlineRobot,
+} from "react-icons/ai";
 
-import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { SocialIcons } from "../Header/HeaderStyles";
+import {
+  CompanyContainer,
+  FooterWrapper,
+  LinkColumn,
+  LinkItem,
+  LinkList,
+  LinkTitle,
+  Slogan,
+  SocialContainer,
+  SocialIconsContainer,
+} from "./FooterStyles";
 
 const Footer = () => {
   return (
@@ -27,7 +42,10 @@ const Footer = () => {
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
           <SocialIcons href="https://github.com/sagarbrathod1/resume/blob/main/Resume%20-%20Sagar%20Rathod.pdf">
-            <AiFillProfile size="3rem"/>
+            <AiFillProfile size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://github.com/byteved">
+            <AiOutlineRobot size="3rem" />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>

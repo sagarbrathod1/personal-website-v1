@@ -19,56 +19,30 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <List>
-      <ListItem>
-        <picture>
-          <DiPython size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>Languages</ListTitle>
-          <ListParagraph>
-            Python <br />
-            Java <br />
-            C++ <br />
-            JavaScript <br />
-            TypeScript <br />
-            Swift <br />
-            HTML/CSS
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiReact size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>Frameworks</ListTitle>
-          <ListParagraph>
-            React.js <br />
-            Next.js <br />
-            React Native <br />
-            Node.js <br />
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiFirebase size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>Tools</ListTitle>
-          <ListParagraph>
-            Amazon Web Services <br />
-            Expo <br />
-            Prisma <br />
-            tRPC <br />
-            Google Firebase <br />
-            DynamoDB/MongoDB <br />
-            GraphQL <br />
-            Git <br />
-            Docker <br />
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
+      <ListContainer>
+        <ListTitle>Languages</ListTitle>
+        <ListParagraph>
+          Python · Java · C++ <br />
+          JavaScript · TypeScript · HTML/CSS <br />
+          Swift
+        </ListParagraph>
+      </ListContainer>
+      <ListContainer>
+        <ListTitle>Frameworks</ListTitle>
+        <ListParagraph>
+          React · Next · Node <br />
+          React Native
+        </ListParagraph>
+      </ListContainer>
+      <ListContainer>
+        <ListTitle>Tools</ListTitle>
+        <ListParagraph>
+          Git · Expo · AWS <br />
+          Prisma · tRPC <br />
+          DynamoDB · MongoDB · PostgreSQL <br />
+          GraphQL · Docker
+        </ListParagraph>
+      </ListContainer>
     </List>
     <SectionDivider colorAlt />
   </Section>
