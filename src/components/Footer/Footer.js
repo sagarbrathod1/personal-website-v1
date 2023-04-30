@@ -44,9 +44,6 @@ const Footer = () => {
           <SocialIcons href="https://github.com/sagarbrathod1/resume/blob/main/Resume%20-%20Sagar%20Rathod.pdf">
             <AiFillProfile size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://github.com/byteved">
-            <AiOutlineRobot size="3rem" />
-          </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
