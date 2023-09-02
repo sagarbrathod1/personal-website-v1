@@ -19,7 +19,8 @@ const Hero = () => (
         <SectionText>
           ↣ Current: Software Engineer @ Atomic Object. <br />
           ↣ Previous: Senior Manager (Business Ops @ IT Staffing) and Research
-          Scientist (SCAs & HIV-1). <br />↣ Michigan State Grad. Go Green!
+          Scientist (SCAs & HIV-1). <br />↣ Michigan State Grad.{" "}
+          <span style={{ color: "green" }}>Go Green!</span>
         </SectionText>
         <Button
           onClick={() =>

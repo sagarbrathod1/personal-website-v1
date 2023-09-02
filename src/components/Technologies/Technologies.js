@@ -22,7 +22,7 @@ const Technologies = () => (
       <ListContainer>
         <ListTitle>Languages</ListTitle>
         <ListParagraph>
-          Python · Java · C++ <br />
+          Python · Java · C++ · Go <br />
           JavaScript · TypeScript · HTML/CSS <br />
           Swift
         </ListParagraph>
@@ -40,7 +40,7 @@ const Technologies = () => (
           Git · Expo · AWS <br />
           Prisma · tRPC <br />
           DynamoDB · MongoDB · PostgreSQL <br />
-          GraphQL · Docker
+          GraphQL · Docker · Google Firebase
         </ListParagraph>
       </ListContainer>
     </List>

@@ -1,10 +1,10 @@
 export const projects = [
   {
-    title: "Twitmoji",
-    description: "Twitter for Emojis and Emojis-only.",
-    image: "/images/twitter.png",
-    tags: ["TypeScript", "Next.JS", "tRPC", "Tailwind CSS", "Prisma"],
-    visit: "https://twimojiter.vercel.app/",
+    title: "Typer Racer",
+    description: "Race me.",
+    image: "/images/type-fast.png",
+    tags: ["TypeScript", "Next.JS", "Supabase", "Tailwind CSS"],
+    visit: "https://racer-typer.vercel.app/",
     id: 1,
   },
   {
